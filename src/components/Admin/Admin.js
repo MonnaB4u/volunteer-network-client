@@ -24,7 +24,6 @@ const Admin = () => {
                 
                 <div style={{ width: '100%' }}>
                     <h4 className='bg-light d-block pb-4 font-weight-bold pl-2'>Volunteer register list</h4>
-                    {/* conditional div render */}
                     <div style={{ minWidth: '1030px' }} className='bg-light mx-4 mt-4 border rounded mb-3 p-5'>
             <div>
                 <form className='row d-flex justify-content-center'>
@@ -54,7 +53,6 @@ const Admin = () => {
                 </form>
             </div>
         </div>
-               {/* ////    */}
                 </div>
             </div>
             <div>

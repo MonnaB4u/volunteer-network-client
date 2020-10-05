@@ -37,6 +37,7 @@ const Register = () => {
   
   const handleAddcollection = () => {
     history.push('/collection')
+    
     // const event = {};
     // fetch('http://localhost:5000//addOrder', {
     //   method: 'POST',
