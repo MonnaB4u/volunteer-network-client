@@ -1,0 +1,26 @@
+.registerimg{
+    height:100px ;
+    margin-left:60px;  
+    margin-top: 30px;
+    padding:10px;
+    filter: brightness(2);
+    
+}
+
+.register-forms{
+   
+    width: 40%;
+    padding:70px;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    margin-left: 400px;
+    border: 1px solid rgb(9, 131, 168) ;
+    box-shadow:1px 1px 4px 3px rgb(163, 153, 153);
+    border-radius:5px;  
+}
+
+.registerBtn{
+    margin-left: 20px;
+    margin-top: 30px;
+   
+}
