@@ -21,8 +21,11 @@ const Admin = () => {
                         </Link>
                     </div>
                 </div>
-                
+
+            {/* ////////////////////////////// */}
+
                 <div style={{ width: '100%' }}>
+                    
                     <h4 className='bg-light d-block pb-4 font-weight-bold pl-2'>Volunteer register list</h4>
                     <div style={{ minWidth: '1030px' }} className='bg-light mx-4 mt-4 border rounded mb-3 p-5'>
             <div>
@@ -40,6 +43,7 @@ const Admin = () => {
                             <label for="exampleFormControlTextarea1">Description</label>
                             <textarea name="Description" placeholder="Enter Description" className="form-control" id="exampleFormControlTextarea1" rows="3" ></textarea>
                         </div>
+                        
                     </div>
                     <div className='col-md-6' style={{marginTop: '30px'}}>
                         <div className="custom-file">

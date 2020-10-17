@@ -14,7 +14,7 @@ const Landing_page = (props) => {
   const history=useHistory()
 
   const cardHandler= () => {
-    console.log("click")
+
 
     // fetch(`http://localhost:5000/register/${_id}`)
     // .then(res=>res.json())

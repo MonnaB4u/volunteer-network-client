@@ -61,11 +61,11 @@ const Register = () => {
       <div className="register-forms">
 
         <form>
-          <TextField required id="standard-required" type="name" label="Full name" placeholder="Enter your full name" defaultValue={loggedInUser.name} ></TextField>
-          <TextField required id="standard-required"  type="email" label="Email" placeholder="Enter your email" defaultValue={loggedInUser.email}></TextField>
-          <TextField required id="standard-required" label="Description" placeholder="Write your description" /> <br />
-          <TextField required id="standard-required" label="Organize books" />
-          <TextField required id="standard-required" name="date" type="date" size="md" /><br />
+          <TextField required id="standard-required" type="name" label="Full name" placeholder="Enter your full name" defaultValue={loggedInUser.name} ></TextField> <br/>
+          <TextField required id="standard-required"  type="email" label="Email" placeholder="Enter your email" defaultValue={loggedInUser.email}></TextField> <br/>
+          <TextField required id="standard-required" label="Description" placeholder="Write your description" /> <br /> <br/>
+          <TextField required id="standard-required" label="Organize books" /> <br/>
+          <TextField required id="standard-required" name="date" type="date" size="md" /><br /> <br/>
 
           <Button onClick={handleAddcollection} className="registerBtn" type="submit" variant="primary" size="md" block> Register </Button>
         </form>
