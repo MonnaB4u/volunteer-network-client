@@ -4,7 +4,7 @@ Live Link Is Here: - https://zealous-hugle-2a50b5.netlify.app/
 
 # Features
 
-⋅⋅* It is a dummy website where people can select volunteer service that they want to provide on a particular date.
+* It is a dummy website where people can select volunteer service that they want to provide on a particular date.
 2. There is a dashboard where user can see their selected services.
 3. User can even cancel any event if they change their mind.
 4. Deployed server-side in Heroku and client-side in Netlify
